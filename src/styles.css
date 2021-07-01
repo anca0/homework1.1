@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: baseline;
+}
+#item {
+  text-emphasis-color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  float: inline-end;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+p {
+  margin: auto;
+  padding-right: 20px;
+}
+h3 {
+  text-align: justify;
+}
+h5 {
+  padding: auto;
+  text-align: right;
+  display: inline-block;
+  font-size: 10px;
+  text-emphasis-color: grey;
+}
