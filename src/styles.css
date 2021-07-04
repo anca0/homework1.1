@@ -1,42 +1,52 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.entirePage{
+  width: 50%;
+  margin: auto;
 }
-.menu {
+.menu-flex{
   display: flex;
-  align-content: space-between;
-  justify-content: space-around;
-  align-items: baseline;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-#item {
+.flex-item{
+  display: inline;
+  float: left;
+  
+}
+.specialCell{
+  display: flex;
+  padding-top: 20px;
+  font-weight: 800;
+}
+.menu-flex a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+background-color: white;
+}
+#item{
   text-emphasis-color: red;
 }
-ul {
+.menu{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
-li {
-  display: inline;
-  float: inline-end;
-}
-a {
+a{
   display: block;
   padding: 8px;
   background-color: #dddddd;
 }
-
-p {
-  margin: auto;
-  padding-right: 20px;
-}
-h3 {
-  text-align: justify;
-}
-h5 {
-  padding: auto;
+h5{
+   padding: auto;
   text-align: right;
   display: inline-block;
   font-size: 10px;
   text-emphasis-color: grey;
+}
+.beginning h5{
+  font-weight: 50;
+  font-style: italic;
+  text-decoration-color: grey;
 }
